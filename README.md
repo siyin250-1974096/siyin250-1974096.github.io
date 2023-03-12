@@ -12,10 +12,10 @@ In the competition's provided [dataset](https://www.kaggle.com/competitions/bird
 ![](img/data.png) 
 
 ## Methodology
-In this project, we are interested to experiment with ResNet networks. For the models, we want to experiment with ResNet-18 and ResNet-152. They are 18 and 152-layer deep Convolutional Neural Network respectively with pre-trained weights from the ImageNet database by applying transfer learning. We are interested in how adjusting the learning rate and batch size of the models would affect the accuracy of the training and testing set. In particular, we want to find out if 
+In this project, we are interested to experiment with ResNet networks. In particular, we want to experiment with ResNet-18 and ResNet-152. They are 18 and 152-layer deep Convolutional Neural Network respectively with pre-trained weights from the ImageNet database. By applying transfer learning, we can test how adjusting the learning rate and batch size of the models would affect the accuracy of the training and testing set. We want to find out if 
 - increasing the batch size from 96 to 128 to 256 would change the testing accuracy
 - increasing the number of epochs would change the testing accuracy
-- changing the model from 18 layers to 152 layers would increase the testing accuracy 
+- changing the model from 18 layers to 152 layers would change the testing accuracy 
 
 ## Experiments
 #### Model Parameters
