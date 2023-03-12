@@ -44,7 +44,7 @@ Our group uses the GPU supplied by the Kaggle competition, which is a NVIDIA Tes
 #### Batch Size = 96, Number of Epoch = 7, ResNet-18, Accuracy: 65.3%
 <img src="img/96batch.png"/>
 
-#### Batch Size = 96, Number of Epoch = 14, ResNet-152, Accuracy: 76.3%
+#### Final Work: Batch Size = 96, Number of Epoch = 14, ResNet-152, Accuracy: 76.3%
 <img src="img/152resnet.png"/>
 
 ## Conclusion
@@ -55,6 +55,9 @@ Our group uses the GPU supplied by the Kaggle competition, which is a NVIDIA Tes
 - Increasing the number of batch size does help with the model accuracy. However, there is a limit to to the number of batch size we can increase to improve the model accuracy. Due to the constant number of training samples, increasing batch size would decrease the number of iterations the model is able to run through the whole training set. Therefore, there is a trade off between batch size and training iterations per epoch. And the optimal range is between 96 and 128 for ResNet-18. Increasing the batch size beyond 128 actually hurts the quality of the model.
 
 - Increasing the number of layers of the ResNet network helps with test accuracy.  It is because through increasing the number of hidden layers in the neural networks, our model is able to extract more features of birds and thus become a better classifier for 555 breeds of birds. 
+
+## Final Work
+We are called team 123 in the Birds Birds Birds Kaggle Competition. The final work accuracy can be seen in the leaderboard.
 
 ## Limitations & Future Works
 - By analyzing the data, we realized that the training data is skewed towards some breeds as more samples are assigned under the popular breeds compared to less popular breeds. It may cause the model to be better trained for some breeds of birds compared towards the less popular breeds of birds. If we have more time, we will probably add more training data for less popular breeds. 
