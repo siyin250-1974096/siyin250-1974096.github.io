@@ -33,20 +33,19 @@ Our group uses the GPU supplied by the Kaggle competition, which is a NVIDIA Tes
 
 ## Results
 #### Default: Batch Size = 128, Number of Epoch = 7, ResNet-18, Accuracy: 63.6%
-![](epochs7.PNG) 
-<img src="epochs7.PNG" width="800" />
+<img src="epochs7.PNG"/>
 
 #### Batch Size = 128, Number of Epoch = 10, ResNet-18, Accuracy: 63.7%
-![](epochs10.PNG) 
+<img src="epochs10.PNG"/>
 
 #### Batch Size = 256, Number of Epoch = 7, ResNet-18, Accuracy: 60.6%
-![](256batch.PNG) 
+<img src="256batch.PNG"/>
 
 #### Batch Size = 96, Number of Epoch = 7, ResNet-18, Accuracy: 65.3%
-![](96batch.PNG) 
+<img src="96batch.PNG"/>
 
 #### Batch Size = 96, Number of Epoch = 14, ResNet-152, Accuracy: 76.3%
-![](152resnet.PNG) 
+<img src="152resnet.PNG"/>
 
 ## Conclusion
 - Increasing the number of epochs barely increases test accuracy for ResNet-18 model. And it is not likely to increase any further as we can see through the plateau in the loss graph. It is probably because ResNet-18 is already a simple model that after running through the training set for 7 times (7 epochs), it has already reached the optimal performance for the dataset and thus the accuracy will not improve further by passing through the training data for 3 more epochs.
