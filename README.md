@@ -34,6 +34,7 @@ Our group uses the GPU supplied by the Kaggle competition, which is a NVIDIA Tes
 ## Results
 #### Default: Batch Size = 128, Number of Epoch = 7, ResNet-18, Accuracy: 63.6%
 ![](epochs7.PNG) 
+<img src="epochs7.PNG" width="800" />
 
 #### Batch Size = 128, Number of Epoch = 10, ResNet-18, Accuracy: 63.7%
 ![](epochs10.PNG) 
