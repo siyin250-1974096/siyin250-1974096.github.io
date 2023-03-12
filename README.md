@@ -56,6 +56,14 @@ Our group uses the GPU supplied by the Kaggle competition, which is a NVIDIA Tes
 
 - Increasing the number of layers of the ResNet network helps with test accuracy.  It is because through increasing the number of hidden layers in the neural networks, our model is able to extract more features of birds and thus become a better classifier for 555 breeds of birds. 
 
-## Limitations
-- By analyzing the data, we realized that the training data is skewed towards some breeds as more samples are assigned under the popular breeds compared to less popular breeds. It may cause the model to be better trained for some breeds of birds compared towards the less popular breeds of birds.
+## Limitations & Future Works
+- By analyzing the data, we realized that the training data is skewed towards some breeds as more samples are assigned under the popular breeds compared to less popular breeds. It may cause the model to be better trained for some breeds of birds compared towards the less popular breeds of birds. If we have more time, we will probably add more training data for less popular breeds. 
 - Due to a large amount of time we needed to spend on experiments and the limited computational resources in terms of the number of times we can submit the notebook, we cannot experiment on more parameter as we wished, such as weight decay, momentum, learning rate and various types of optimizers and loss function. 
+
+## Problem Encountered
+- This topic is different from our proposed topic due to the proposed project's difficulty
+- We had difficulty deciding what model to use. We do not know if ResNet/ DarkNet is more suitable for the bird classification task.
+- We had difficulty transitioning from ResNet-18 to ResNet-152 because we had to manually modify the structure of the output linear layer. 
+
+## Comparison with others
+We are not sure what the others did but we think our use of ResNet-152 should be different from others and we also fine-tuned the best parameters for ResNet-152 so it makes a difference to our model accuracy.
