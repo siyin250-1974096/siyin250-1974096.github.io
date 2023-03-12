@@ -5,11 +5,11 @@
 Our project participates in the [Birds Birds Birds Kaggle Competition](https://www.kaggle.com/competitions/birds23wi/data) and we are interested to experiment the best accuracy we can obtain in this competition with the pre-trained ResNet network through varying batch size, learning rate and network model.
 
 ## Video Walkthrough
-[![Watch the video](/img/Video_cover.PNG)](https://drive.google.com/file/d/1NIyT6PFyUmc2wiv9VCU2vIW_jzoOUGPR/view?usp=share_link)
+[![Watch the video](img/Video_cover.png)](https://drive.google.com/file/d/1NIyT6PFyUmc2wiv9VCU2vIW_jzoOUGPR/view?usp=share_link)
 
 ## Problem & Data
 In the competition's provided [dataset](https://www.kaggle.com/competitions/birds23wi/data), we are given 38656 training images of birds. Therefore, our project aims to accurately classify given bird images under 555 categories. To access the performance of our model, we also have 10000 test images. In order to find our the best performing model parameters, we also aim to perform a series of experiments through varying the number of epochs, batch size and ResNet model. Below are 8 bird images with their corresponding labels.
-![](/img/data.PNG) 
+![](img/data.png) 
 
 ## Methodology
 In this project, we are interested to experiment with ResNet networks. For the models, we want to experiment with ResNet-18 and ResNet-152. They are 18 and 152-layer deep Convolutional Neural Network respectively with pre-trained weights from the ImageNet database by applying transfer learning. We are interested in how adjusting the learning rate and batch size of the models would affect the accuracy of the training and testing set. In particular, we want to find out if 
@@ -33,19 +33,19 @@ Our group uses the GPU supplied by the Kaggle competition, which is a NVIDIA Tes
 
 ## Results
 #### Default: Batch Size = 128, Number of Epoch = 7, ResNet-18, Accuracy: 63.6%
-<img src="/img/epochs7.PNG"/>
+<img src="img/epochs7.png"/>
 
 #### Batch Size = 128, Number of Epoch = 10, ResNet-18, Accuracy: 63.7%
-<img src="/img/epochs10.PNG"/>
+<img src="img/epochs10.png"/>
 
 #### Batch Size = 256, Number of Epoch = 7, ResNet-18, Accuracy: 60.6%
-<img src="/img/256batch.PNG"/>
+<img src="img/256batch.png"/>
 
 #### Batch Size = 96, Number of Epoch = 7, ResNet-18, Accuracy: 65.3%
-<img src="/img/96batch.PNG"/>
+<img src="img/96batch.png"/>
 
 #### Batch Size = 96, Number of Epoch = 14, ResNet-152, Accuracy: 76.3%
-<img src="/img/152resnet.PNG"/>
+<img src="img/152resnet.png"/>
 
 ## Conclusion
 - Increasing the number of epochs barely increases test accuracy for ResNet-18 model. And it is not likely to increase any further as we can see through the plateau in the loss graph. It is probably because ResNet-18 is already a simple model that after running through the training set for 7 times (7 epochs), it has already reached the optimal performance for the dataset and thus the accuracy will not improve further by passing through the training data for 3 more epochs.
